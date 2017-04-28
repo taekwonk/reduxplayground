@@ -1,0 +1,16 @@
+<ul class="courses">
+    <li *ngFor="let course of items$ | async">
+
+      <div class="mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">{{course.id}}.
+{{course.name}}</h2>
+        </div>
+        <div class="mdl-card__menu">
+        
+
+        </div>
+      </div>
+
+    </li>
+  </ul>
